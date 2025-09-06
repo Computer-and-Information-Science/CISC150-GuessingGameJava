@@ -1,4 +1,4 @@
-The goal of this exercise is to program a Guess My Number* game. When it’s finished, it should work like this:*
+The goal of this exercise is to program a Guess My Number game. When it’s finished, it should work like this:
 
 I'm thinking of a number between 1 and 100
 (including both). Can you guess what it is?
@@ -11,7 +11,7 @@ To choose a random number, you can use the Random class in java.util. Here’s h
 
 import java.util.Random;
 
-public class GuessStarter {
+public class GuessingGame {
 
     public static void main(String[] args) {
         // pick a random number
@@ -25,7 +25,7 @@ Like the Scanner class in this chapter, Random has to be imported before we can 
 
 Then we can use the method nextInt to generate a random number. In this example, the result of nextInt(100) will be between 0 and 99, including both. Adding 1 yields a number between 1 and 100, including both.
 
-Modify the program to prompt the user; then use a Scanner to read a line of user input. Compile and test the program.
+Copy and Modify the program to prompt the user; then use a Scanner to read a line of user input. Compile and test the program.
 
 Read the user input as an integer and display the result. Again, compile and test.
 
